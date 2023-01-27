@@ -21,8 +21,8 @@ const sublinks = [
   {
     page: "company",
     links: [
-      { label: "about", icon: <FaBriefcase />, url: "/products" },
-      { label: "customers", icon: <FaBriefcase />, url: "/products" },
+      { label: "about", icon: <FaBriefcase />, url: "/About" },
+      { label: "customers", icon: <FaBriefcase />, url: "/customers" },
     ],
   },
 ];

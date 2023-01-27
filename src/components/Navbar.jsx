@@ -1,6 +1,6 @@
 import React from 'react'
 import {useGlobalContext} from "../context/context" // costum Hook umuzu import ediyoruz.
-import team from "../helper/team.jpg" // logomozu import ediyoruz.
+import logo from "../helper/logo.jpg" // logomozu import ediyoruz.
 
 import {FaBars} from "react-icons/fa"
 
@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="nav">
       <div className="nav-center">
         <div className="nav-header">
-          <img src={team} alt="logo" className="nav-logo" />
+          <img src={logo} alt="logo" className="nav-logo" />
           <button className="btn toggle-btn" onClick={openSidebar}>
             <FaBars />
           </button>
