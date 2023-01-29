@@ -178,7 +178,7 @@ Stripe Styles
   height: 65%;
   top: 0;
   left: 0;
-  background:rgb(255, 255, 255);
+  background:rgb(247, 244, 244);
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
@@ -245,7 +245,7 @@ Stripe Styles
     background: transparent;
     border-color: transparent;
     font-size: 1.1rem;
-    color: white;
+    color: rgb(33, 31, 31);
     text-transform: capitalize;
     letter-spacing: 1px;
     width: 10rem;
@@ -316,7 +316,7 @@ Stripe Styles
   transform: scale(0);
   background: rgba(0, 0, 0, 0.5);
 }
-.sidebar-wrapper.show {
+.sidebar-wrapper .show {
   visibility: visible;
   z-index: 2;
   transform: scale(1);
